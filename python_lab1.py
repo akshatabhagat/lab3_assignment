@@ -51,6 +51,7 @@ while True:
         name = input("Enter the name: ")
         result = employee_table.search_by_name(name)
     elif choice == 3:
+        
         operator = input("Enter the operator (>, <, <=, >=): ")
         salary = int(input("Enter the salary: "))
         result = employee_table.search_by_salary(operator, salary)
